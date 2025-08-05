@@ -1,0 +1,20 @@
+[project]
+name = "metrichub"
+version = "0.1.0"
+description = "A project for analyzing the efficiency of your applications and servers. Receives,  displays, and processes any data. Use whatever you want with your data."
+authors = [
+    {name = "Anton Golubchikov",email = "anton1programmist@gmail.com"}
+]
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.12"
+dependencies = [
+]
+
+[tool.poetry]
+packages = [{include = "metrichub", from = "src"}]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
