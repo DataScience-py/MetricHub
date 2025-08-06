@@ -1,5 +1,6 @@
 # MetricHub
 [![language](https://img.shields.io/badge/language-python3.12-blue)](https://docs.python.org/3.12/)
+[![build system](https://img.shields.io/badge/build%20system-poetry-blue)](https://python-poetry.org/)
 [![OC](https://img.shields.io/badge/OS-linux%2C%20windows%2C%20macOS-red)]()
 [![Techology](https://img.shields.io/badge/Technology-Docker-green)](https://www.docker.com/)
 [![GitHub stars](https://img.shields.io/github/stars/DataScience-py/MetricHub.svg?style=social)](https://github.com/DataScience-py/MetricHub/stargazers)
