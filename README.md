@@ -9,6 +9,18 @@
 
 A project for **analyzing** the efficiency of your applications and servers. Receives,  displays, and processes **any data**. Use whatever you want with **your data**.
 
+## table of contents
+
+- [Instalation](#instalation)
+- [Documentation](#documentation)
+
+
+## Instalation
+
+Installation giude you can see on any supported language documentation.
+
+- [Russian](https://github.com/DataScience-py/MetricHub/tree/main/docs/users/ru/instalation.md)
+- [English](https://github.com/DataScience-py/MetricHub/tree/main/docs/users/en/instalation.md)
 
 ## Documentation
 
