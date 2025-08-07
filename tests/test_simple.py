@@ -1,2 +1,2 @@
-def test_simple():
-    assert 1 == 1
+def test_simple(client):
+    assert client.get("/").status_code == 200

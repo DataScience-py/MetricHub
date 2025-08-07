@@ -1,5 +1,5 @@
-from time import sleep
+if __name__ == "__main__":
+    import uvicorn
+    from metrichub import app
 
-for i in range(1000):
-    print("Hello World")
-    sleep(1)
+    uvicorn.run(app, host="0.0.0.0", port=8080)

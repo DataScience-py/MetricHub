@@ -9,6 +9,8 @@ readme = "README.md"
 license = "MIT"
 requires-python = ">=3.12"
 dependencies = [
+    "fastapi (>=0.116.1,<0.117.0)",
+    "uvicorn (>=0.35.0,<0.36.0)"
 ]
 
 [tool.poetry]
@@ -22,6 +24,7 @@ ruff = "^0.12.7"
 
 [tool.poetry.group.test.dependencies]
 pytest = "^8.4.1"
+httpx = "^0.28.1"
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
