@@ -1,0 +1,12 @@
+# Ignore tests folder
+tests/
+
+# Ignore Python specific files and folders
+__pycache__/
+*.pyc
+
+.env
+
+# Ignore Docker related files
+Dockerfile
+docker-compose.yml
