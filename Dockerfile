@@ -21,6 +21,8 @@ RUN poetry install --no-root --without dev
 # Копируем исходный код приложения
 COPY src/ ./src/
 
+COPY tests/ ./tests/
+
 # Добавляем наш код в PYTHONPATH
 ENV PYTHONPATH=/app/src
 

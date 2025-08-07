@@ -19,4 +19,7 @@ jobs:
         run: cp .env.example .env
 
       - name: Run docker compose
-        run: docker compose -f docker-compose.yml up -d
+        run: docker compose -f docker-compose.yml up -d --build
+
+      - name: Run test with pytest
+        run: docker compose exec app poetry run pytest tests
