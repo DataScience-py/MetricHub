@@ -1,0 +1,19 @@
+name: Check configuration self hosted
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: self-hosted
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Run docker compose
+        run: docker compose -f docker-compose.yml up -d
