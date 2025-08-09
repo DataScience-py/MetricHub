@@ -1,5 +1,8 @@
-if __name__ == "__main__":
-    import uvicorn
-    from metrichub import app
+"""Exemple start server with uvicorn."""
 
+import uvicorn
+
+from metrichub import app
+
+if __name__ == "__main__":
     uvicorn.run(app, host="0.0.0.0", port=9000)
